@@ -36,21 +36,19 @@
 
 	}
 
-
-
 	body {
-  background-image: url("background.png");
-}
+	  background-image: url("background.png");
+	}
 
 	@media only screen and (max-width: 600px) {
-  #tudo {
-    width: 100% !important;
-  }
+		#tudo {
+			width: 100% !important;
+		}
 
-  .btfinal{
-		 width: 80% !important;
+	  	.btfinal{
+				width: 80% !important;
+		}
 	}
-}
 
 </style>
 
@@ -108,12 +106,11 @@
 		<div class="displayed" id="tudo"  style="background-color: white; border: 10px solid #C4C4C4; width: 60%; border-radius: 2%;margin-top: 25px;margin-bottom: 25px;font-family: 'Lucida Grande', Monaco, monospace;">
 			<img src="Peter.jpg" class="displayed" style="height:125px;border-radius: 100%;margin-top: 40px">
 
-			<div style="text-align: center;width: 90%" class="displayed">
-				<h1 style="font-weight: 700;font-size:2em">Meu Segredo Revelado...</h1>
+			<div style="text-align: center;width: 90%" class="displayed text-justify">
 
-				<p style="margin-top: 30px"><strong>Peter Cardoso,</strong> especialista em Lotofácil, revela como você pode começar a ganhar um salário semanal de casa em um aplicativo diferente de tudo o que você já viu, que utiliza inteligência artificial para <strong>GERAR</strong> os <strong>JOGOS PRONTOS da LOTOFÁCIL.</strong></p>
+				<p class=' ' style="margin-top: 30px">Especialista em Inteligência Artificial revela como mais de 200 apostadores brasileiros conseguiram acertar <strong>9.095 vezes seguidas na loteria ao longo de 6 anos.</strong> A apresentação a seguir revela uma brecha matemática no processo de sorteio dos jogos que deve ser mantida em segredo. </p>
 
-				<p>A apresentação a seguir é <strong>restrita</strong> e só pode ser vista depois que você responder às perguntas a seguir o mais honestamente possível. (<em>Role a página se estiver acessando do celular</em>)</p>
+				<p>Para ter acesso à essas informações, você vai precisar responder às perguntas a seguir o mais honestamente possível. (<em>Role a página se estiver acessando do celular</em>)</p>
 
 				<p><strong>Progresso:</strong></p>
 			</div>
@@ -135,7 +132,7 @@
 
 				<div id="pergunta">
 					<h1 style="color: white;font-size: 1.8em;font-weight: 700;text-align: center;padding-top: 20px" id="txtq">Questão 1</h1>
-					<p style="color: white;font-size: 1.5em;font-weight: 500;text-align: center;" id="txtp">Você faz apostas semanais na loto?</p>
+					<p style="color: white;font-size: 1.5em;font-weight: 500;text-align: center;" id="txtp">Você É Brasileiro?</p>
 
 					<div class="container">
 				  	
@@ -158,21 +155,21 @@
 					<img src="loading.gif" class="displayed">
 				</div>
 
-				<div id="final" style="text-align: center;color: white;display: none;padding-top: 20px">
-					<div class="container">
-						<h1 style="font-size: 1.5em;text-decoration: underline;">SUA VAGA FOI RESERVADA</h1>
+				<div id="final" style="text-align: left;color: white;display: none;padding-top: 20px">
+					<div class="container text-left">
+						<h1 class='text-center' style="font-size: 1.5em;text-decoration: underline;">SUA VAGA FOI RESERVADA</h1>
 
-					<p><strong>Parabéns!</strong> Você garantiu pelos próximos minutos uma vaga para assistir à uma apresentação limitada do Peter Cardoso.</p>
+					<p><strong>Parabéns!</strong> Você garantiu, pelos próximos minutos, uma vaga para assistir à apresentação restrita do Peter Cardoso.</p>
 
-					<p>Nesta apresentação, ele vai mostrar como <strong>VOCÊ PODE UTILIZAR UMA BRECHA DENTRO DA LOTOFÁCIL PARA GARANTIR UM SALÁRIO SEMANAL USANDO APENAS INTELIGÊNCIA ARTIFICIAL!</strong></p>
+					<p>Nesta apresentação, ele vai mostrar como conseguiu usar tecnologia de Inteligência Artificial para explorar uma <strong>brecha nos sorteios da LotoFácil</strong></p>
 
 					<p>Para prosseguir, você deve concordar com as seguintes regras:</p>
 
 					<p>1- Esta apresentação só estará disponível por <strong>TEMPO LIMITADO</strong> para um número pequeno de usuários ao mesmo tempo. Ao clicar no botão abaixo, você se compromete a assistir à apresentação do Peter Cardoso <strong>ATÉ O FIM.</strong> Caso contrário, por favor, feche esta janela para liberar a sua vaga para outra pessoa.</p>
 
-					<p>2- Durante a apresentação, o Peter Cardoso revela detalhes pessoais da sua própria vida. Esses detalhes <strong>NÃO</strong> devem ser compartilhados fora do contexto da apresentação (pela segurança do mesmo).</p>
+					<p>2- Durante a apresentação, o Peter Cardoso revela segredos industriais que conseguiu desvendar ao trabalhar para uma empresa israelense.  Esses detalhes <strong>NÃO</strong> devem ser compartilhados fora do contexto da apresentação.</p>
 
-					<p>3- O processo desenvolvido por Peter Cardoso foi validado e testado em milhares de pessoas e está em processo de registro de patente. Essas informações são disponibilizadas <strong>APENAS PARA VOCÊ</strong> e não podem ser vendidas para terceiros.</p>
+					<p>3- As informações que você vai ter acesso agora são disponibilizadas <strong>APENAS PARA VOCÊ</strong> e não podem ser vendidas para terceiros. <strong>Se muitas pessoas souberem do método, ele poderá ser limitado e deixar de funcionar!</strong> O processo foi desenvolvido pelo Peter Cardoso e já foi testado e validado por ele mais 100 parentes, e conhecidos mais próximos dele nos últimos meses. Apenas recentemente ele decidiu abrir a apresentação para mais 300 pessoas terem acesso.</p>
 
 					<p>Se você concorda com as condições acima, clique no botão "EU CONCORDO!" abaixo para prosseguir até a apresentação.</p>
 					<div style="width: 40%" class="displayed btfinal">
@@ -348,13 +345,29 @@
 
 			if (t == 1) {
 				document.getElementById("txtq").innerHTML="Questão 2";
-			document.getElementById("txtp").innerHTML="Você tem interesse em tirar um salário semanal apenas fazendo jogos prontos que um robô gera pra você?";
+			document.getElementById("txtp").innerHTML="Você é maior de 18 anos?";
+
+
+			 document.getElementById("progress").style.width = "25%";
+			}
+
+			if (t == 2) {
+				document.getElementById("txtq").innerHTML="Questão 3";
+			document.getElementById("txtp").innerHTML="Você ganha mais do que 10 salários mínimos?";
 
 
 			 document.getElementById("progress").style.width = "50%";
 			}
 
-			if (t == 2) {
+			if (t == 3) {
+				document.getElementById("txtq").innerHTML="Questão 4";
+			document.getElementById("txtp").innerHTML="Você já ganhou algum prêmio em sorteios oficiais do governo brasileiro?";
+
+
+			 document.getElementById("progress").style.width = "75%";
+			}
+
+			if (t == 4) {
 				document.getElementById("progress").style.width = "100%";
 				setTimeout(
           			function(){ 
